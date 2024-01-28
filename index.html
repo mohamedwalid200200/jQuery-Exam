@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body class="bg-black">
+        <section class="container bg-black py-5">
+            <div class="sideBar d-flex position-fixed top-0 vh-100 z-2 bg-danger">
+                <div class="leftSide bg-black text-white d-flex flex-column justify-content-between ps-4 pb-3">
+                    <ul class="list-unstyled pt-4">
+                        <li><a class="text-decoration-none text-white searchSide">Search</a></li>
+                        <li class="py-3"><a class="text-decoration-none text-white catSide">Categories</a></li>
+                        <li><a class="text-decoration-none text-white areaSide">Area</a></li>
+                        <li class="py-3"><a class="text-decoration-none text-white ingSide">Ingredients</a></li>
+                        <li><a class="text-decoration-none text-white contactSide">Contact Us</a></li>
+                    </ul>
+                    <div>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-globe"></i>
+                        <p>Copyright Â© 2019 All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="rightSide bg-white text-black d-flex flex-column justify-content-between py-3">
+                    <div class="w-75 mx-auto"><img class="img-fluid" src="images/logo.png"></div>
+                    <p class=" closeBtn fs-1 text-center"><i class="fa-solid fa-bars"></i></p>
+                    <div class="icons mx-auto">
+                        <div><i class="fa-solid fa-globe"></i></div>
+                        <div class="mt-1"><i class="fa-solid fa-share-nodes"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="home row mx-auto bg-black">
+            </div>
+            <div class="mealDetails row mx-auto bg-black d-flex text-white">
+            </div>
+            <div class="search container px-5">
+                <div class="d-flex px-5">
+                    <input class="searchName form-control bg-transparent me-4" placeholder="Search By Name">
+                    <input class="searchFirst form-control bg-transparent" placeholder="Search By First Letter" maxlength="1">
+                </div>
+                <div class="searchResult row mx-auto bg-black py-5">
+                </div>
+            </div>
+            <div class="categories row mx-auto bg-black">
+            </div>
+            <div class="area row mx-auto">
+            </div>
+            <div class="ingredients row mx-auto bg-black">
+            </div>
+            <div class="contact container vh-100 px-5 justify-content-center flex-column">
+                <div class="d-flex w-75 mx-auto">
+                    <div class=" w-50">
+                        <input class="form-control newNameInput" placeholder="Enter Your Name">
+                        <p class="d-none alert alert-danger nameAlert mt-2 w-100">Special characters and numbers not allowed</p>
+                    </div>
+                    <div class="w-50">
+                        <input class="form-control newEmailInput ms-3" placeholder="Enter Your Email">
+                        <p class="d-none alert alert-danger emailAlert ms-3 mt-2 w-100">Email not valid *exemple@yyy.zzz</p>
+                    </div>
+                </div>
+                <div class="d-flex w-75 mx-auto py-3">
+                    <div class="w-50">
+                        <input class="form-control phoneInput " placeholder="Enter Your Phone">
+                    </div>
+                    <div class="w-50">
+                        <input class="form-control ms-3 ageInput" placeholder="Enter Your Age">
+                        <p class="d-none alert alert-danger ageAlert ms-3 mt-2 w-100">Enter valid age</p>
+                    </div>
+                </div>
+                <div class="d-flex w-75 mx-auto">
+                    <div class="w-50">
+                        <input class="form-control newPassInput" placeholder="Enter Your Password">
+                        <p class="d-none alert alert-danger passwordAlert mt-2 w-100">Enter valid password *Minimum eight characters, at least one letter and one number:*</p>
+                    </div>
+                    <div class="w-50">
+                        <input class="form-control ms-3 newRePassInput" placeholder="Repassword">
+                        <p class="d-none alert alert-danger rePassAlert ms-3 mt-2 w-100">Confirm your password</p>
+                    </div>
+                </div>
+                <p class="submit">Submit</p>
+            </div>
+        </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/mine.js"></script>
+    </body>
+</html>
